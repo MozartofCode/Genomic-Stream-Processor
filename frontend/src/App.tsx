@@ -5,13 +5,15 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="flex-1 flex overflow-hidden">
-      <div className="flex-1 flex flex-col overflow-hidden">
-        <Dashboard />
-      </div>
-      <Sidebar />
+    <>
+      <main className="flex-1 flex overflow-hidden">
+        <div className="flex-1 flex flex-col overflow-hidden">
+          <Dashboard />
+        </div>
+        <Sidebar />
+      </main>
       <Footer />
-    </div>
+    </>
   )
 }
 
