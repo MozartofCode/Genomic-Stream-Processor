@@ -5,6 +5,10 @@ import time
 import sys
 import os
 import pandas as pd
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Add parent directory to path to import backend
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
