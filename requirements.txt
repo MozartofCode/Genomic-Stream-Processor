@@ -1,0 +1,7 @@
+streamlit
+asyncpg
+groq
+pandas
+sqlalchemy
+psycopg2-binary
+maturin

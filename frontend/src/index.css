@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .glow-teal {
+        text-shadow: 0 0 8px rgba(13, 242, 242, 0.6);
+    }
+    .glow-orange {
+        text-shadow: 0 0 8px rgba(249, 115, 22, 0.4);
+    }
+    .scrolling-container {
+        mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
+    }
+    /* Scrollbar styling */
+    ::-webkit-scrollbar {
+        width: 4px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #102222;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #1d3a3a;
+        border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #0df2f2;
+    }
+}
